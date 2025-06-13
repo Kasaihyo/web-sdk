@@ -1,0 +1,33 @@
+
+> lines@0.0.0 storybook /Users/temogiorgadze/Documents/FluxGaming/Stake RGS/web-sdk-setup/web-sdk/apps/lines
+> PUBLIC_CHROMATIC=true storybook dev -p 6001 public --port 6004
+
+@storybook/core v8.6.3
+
+info Found existing addon "@storybook/addon-docs", skipping.
+info Found existing addon "@storybook/addon-docs", skipping.
+info => Serving static files from ././static at /
+info => Starting manager..
+WARN No story files found for the specified pattern: src/**/*.mdx
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
+info => Starting preview..
+The following Vite config options will be overridden by SvelteKit:
+  - base
+╭─────────────────────────────────────────────────────────────────────╮
+│                                                                     │
+│   [38;2;162;224;94mStorybook 8.6.3 for sveltekit started[39m                             │
+│   871 ms for manager and 1.4 s for preview                          │
+│                                                                     │
+│   Local:            http://localhost:6004/                          │
+│   On your network:  http://172.20.10.3:6004/                        │
+│                                                                     │
+│   [38;2;243;173;56mA new version (9.0.5) is available![39m                               │
+│                                                                     │
+│   Upgrade now: [38;2;162;224;94mnpx storybook@latest upgrade[39m                         │
+│                                                                     │
+│   Read full changelog:                                              │
+│   https://github.com/storybookjs/storybook/blob/main/CHANGELOG.md   │
+│                                                                     │
+╰─────────────────────────────────────────────────────────────────────╯
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.

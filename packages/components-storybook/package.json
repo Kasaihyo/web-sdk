@@ -1,0 +1,44 @@
+{
+  "name": "components-storybook",
+  "version": "0.1.1",
+  "description": "Storybook for pixi-svelte",
+  "keywords": [
+    "pixi",
+    "svelte",
+    "storybook"
+  ],
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+		"eslint": "^9",
+    "eslint-config-custom": "workspace:*",
+    "config-ts": "workspace:*",
+		"config-vite": "workspace:*",
+		"config-svelte": "workspace:*",
+		"config-storybook": "workspace:*"
+  },
+  "dependencies": {
+    "svelte": "^5",
+    "vite": "latest",
+    "@lingui/core": "latest",
+    "components-shared": "workspace:*",
+    "utils-layout": "workspace:*",
+    "utils-shared": "workspace:*",
+    "utils-event-emitter": "workspace:*",
+    "state-shared": "workspace:*",
+    "pixi-svelte": "workspace:*",
+    "@chromatic-com/storybook": "latest",
+    "@storybook/addon-svelte-csf": "next",
+    "@storybook/addon-essentials": "latest",
+    "@storybook/builder-vite": "latest",
+    "@storybook/svelte": "latest",
+    "@storybook/sveltekit": "latest",
+    "@sveltejs/adapter-static": "latest",
+    "storybook": "latest",
+    "@sveltejs/vite-plugin-svelte": "^5",
+    "pixi.js": "^8"
+  },
+  "type": "module"
+}

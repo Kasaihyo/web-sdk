@@ -1,0 +1,35 @@
+{
+  "name": "twist-turbo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "preview": "turbo run preview",
+    "real-build-storybook": "turbo run real-build-storybook",
+    "storybook": "turbo run storybook",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish",
+    "e2e": "turbo run e2e",
+    "e2e-smoke": "turbo run e2e-smoke",
+    "e2e-mobile": "turbo run e2e-mobile"
+  },
+  "dependencies": {
+    "eslint": "^9",
+    "eslint-config-custom": "workspace:*",
+    "prettier": "^3",
+    "prettier-plugin-svelte": "^3",
+    "turbo": "^2.4.4"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "packageManager": "pnpm@10.5.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "svelte-preprocess"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"name": "utils-layout",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"format": "prettier --write --ignore-path=../../.prettierignore .",
+		"lint": "eslint \"src\""
+	},
+	"type": "module",
+	"devDependencies": {
+		"eslint": "^9",
+		"eslint-config-custom": "workspace:*",
+		"config-ts": "workspace:*",
+		"config-vite": "workspace:*",
+		"config-svelte": "workspace:*",
+		"chromatic": "latest",
+		"@sveltejs/vite-plugin-svelte": "^5"
+	},
+	"dependencies": {
+		"lodash": "latest",
+		"@types/lodash": "latest",
+		"svelte": "^5",
+		"vite": "latest",
+		"@sveltejs/kit": "latest",
+		"pixi-svelte": "workspace:*",
+		"utils-shared": "workspace:*",
+		"constants-shared": "workspace:*"
+	}
+}

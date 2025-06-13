@@ -1,0 +1,40 @@
+{
+	"name": "components-ui-pixi",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"format": "prettier --write --ignore-path=../../.prettierignore .",
+		"lint": "eslint \"src\"",
+		"storybook": "PUBLIC_CHROMATIC=true storybook dev -p 5003 public"
+	},
+	"type": "module",
+	"devDependencies": {
+		"eslint": "^9",
+		"eslint-config-custom": "workspace:*",
+		"config-ts": "workspace:*",
+		"config-vite": "workspace:*",
+		"config-svelte": "workspace:*",
+		"config-storybook": "workspace:*",
+		"chromatic": "latest",
+		"@storybook/addon-svelte-csf": "next",
+		"@sveltejs/vite-plugin-svelte": "^5"
+	},
+	"dependencies": {
+		"lodash": "latest",
+		"@types/lodash": "latest",
+		"svelte": "^5",
+		"vite": "latest",
+		"@sveltejs/kit": "latest",
+		"@lingui/core": "latest",
+		"pixi-svelte": "workspace:*",
+		"constants-shared": "workspace:*",
+		"state-shared": "workspace:*",
+		"utils-shared": "workspace:*",
+		"utils-xstate": "workspace:*",
+		"utils-layout": "workspace:*",
+		"utils-event-emitter": "workspace:*",
+		"components-layout": "workspace:*",
+		"components-shared": "workspace:*",
+		"components-pixi": "workspace:*"
+	}
+}
