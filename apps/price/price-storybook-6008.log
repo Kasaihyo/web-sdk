@@ -27,3 +27,4 @@ The following Vite config options will be overridden by SvelteKit:
 ╰─────────────────────────────────────────────────────────────────────╯
 CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
 CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
+11:25:52 PM [vite] (client) page reload /Users/temogiorgadze/Documents/FluxGaming/Stake RGS/web-sdk-setup/web-sdk/packages/config-storybook/src/main.ts
